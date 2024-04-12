@@ -38,7 +38,7 @@ const Dashboard = () => {
                 </div>
 
 
-                {/* rightn */}
+                {/* right */}
 
                 <div className='w-[76%] 3xl:w-full'>
                     <div className="flex justify-between items-center mb-2">
@@ -61,7 +61,7 @@ const Dashboard = () => {
             </div>
 
 
-            <div className="border-t-2 border-t-[#f9f9f9] flex items-center">
+            <div className="border-t-2 border-t-[#f9f9f9] flex items-center lg:flex-wrap lg:justify-center">
                 <div className="flex items-center gap-3 border-r-2 p-6 pe-24 2xl:pe-20 xl:p-4 border-r-[#f9f9f9]">
                     <Image src={Estimate} alt='Estimate' />
                     <div>
