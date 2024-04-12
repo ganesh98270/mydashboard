@@ -19,32 +19,32 @@ const Sidebar = () => {
                 </div>
                 <div className="navlink flex items-center gap-2 px-8 py-2">
                     <CategoryIcon />
-                    <Link className='text-grey font-bitter  text-lg font-medium' href={"/category"}>Category</Link>
+                    <Link className='text-grey font-bitter  text-lg font-medium' href={"/"}>Category</Link>
                 </div>
                 <div className="navlink flex items-center gap-2 px-8 py-2">
                     <ProductsIcon />
-                    <Link className='text-grey font-bitter  text-lg font-medium' href={"/category"}>Products</Link>
+                    <Link className='text-grey font-bitter  text-lg font-medium' href={"/"}>Products</Link>
                 </div>
                 <div className="navlink flex items-center gap-2 px-8 py-2">
                     <OrderIcon />
-                    <Link className='text-grey font-bitter  text-lg font-medium' href={"/category"}>Orders</Link>
+                    <Link className='text-grey font-bitter  text-lg font-medium' href={"/"}>Orders</Link>
                 </div>
                 <div className="navlink flex items-center gap-2 px-8 py-2">
                     <TodoIcon />
-                    <Link className='text-grey font-bitter  text-lg font-medium' href={"/category"}>To Do List</Link>
+                    <Link className='text-grey font-bitter  text-lg font-medium' href={"/"}>To Do List</Link>
                 </div>
                 <div className="navlink flex items-center gap-2 px-8 py-2">
                     <CalendarIcon />
-                    <Link className='text-grey font-bitter  text-lg font-medium' href={"/category"}>Calendar</Link>
+                    <Link className='text-grey font-bitter  text-lg font-medium' href={"/"}>Calendar</Link>
                 </div>
             </div>
 
             <div className="mt-8">
-                <p className='uppercase text-sm text-grey font-normal  px-8 py-2'>other</p>
+                <p className='uppercase text-sm text-grey font-normal px-8 py-2'>other</p>
 
                 <div className="navlink flex items-center px-8 py-2 gap-2">
                     <SettingIcon />
-                    <Link className='text-grey font-bitter  text-lg font-medium' href={"/category"}>Setting</Link>
+                    <Link className='text-grey font-bitter  text-lg font-medium' href={"/"}>Setting</Link>
                 </div>
                 <div className="navlink flex items-center px-8 py-2 gap-2">
                     <LogOutIcon />
